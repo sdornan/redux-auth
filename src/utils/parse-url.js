@@ -109,6 +109,7 @@ export default function getRedirectInfo(currentLocation) {
   } else {
     let authKeys = [
       "access-token",
+      "access_token",
       "token",
       "auth_token",
       "config",
